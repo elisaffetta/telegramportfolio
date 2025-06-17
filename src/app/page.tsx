@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Metadata } from "next";
+
 
 // Components
 import Header from "@/components/sections/Header";

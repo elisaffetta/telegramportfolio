@@ -1,22 +1,4 @@
 import { Service } from '@/types/service';
-import { 
-  FileText, 
-  PenTool, 
-  Code, 
-  Target, 
-  PresentationIcon,
-  Layers,
-  Palette,
-  MessageSquare,
-  FileCode,
-  Bot,
-  BarChart,
-  Mail,
-  Briefcase,
-  LineChart,
-  Download
-} from 'lucide-react';
-
 export const services: Service[] = [
   // Стратегия и брендинг
   {
