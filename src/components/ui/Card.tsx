@@ -1,8 +1,8 @@
 import React from 'react';
 import { cn } from '@/utils/cn';
-import { motion } from 'framer-motion';
+import { motion, HTMLMotionProps } from 'framer-motion';
 
-interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
+interface CardProps extends Omit<HTMLMotionProps<"div">, "children"> {
   children: React.ReactNode;
   className?: string;
   glass?: boolean;
